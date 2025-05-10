@@ -13,7 +13,7 @@
             //While Loop - Calculate Sum of Numbers Between
             Console.WriteLine(WhileLoop_CalculateSumOfNumbersBetween.CalculateSumOfNumbersBetween(5, 10));
 
-            //Do While Loop - Calculate Sum of Numbers Between
+            //Do While Loop - Repeat Character
             Console.WriteLine(DoWhileLoop_RepeatCharacter.RepeatCharacter('a', 0));
         }
     }
