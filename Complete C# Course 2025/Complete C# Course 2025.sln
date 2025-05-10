@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coding Exercises", "..\Coding Exercises\Coding Exercises.csproj", "{C30648DF-698D-4B46-939D-01A0C2930E51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switch Expressions", "..\Switch Expressions\Switch Expressions.csproj", "{2A43BC88-6230-45A7-A16F-CCFB37D45EA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C30648DF-698D-4B46-939D-01A0C2930E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C30648DF-698D-4B46-939D-01A0C2930E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C30648DF-698D-4B46-939D-01A0C2930E51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A43BC88-6230-45A7-A16F-CCFB37D45EA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A43BC88-6230-45A7-A16F-CCFB37D45EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A43BC88-6230-45A7-A16F-CCFB37D45EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A43BC88-6230-45A7-A16F-CCFB37D45EA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
