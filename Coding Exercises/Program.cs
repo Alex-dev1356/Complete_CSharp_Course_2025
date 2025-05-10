@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //String Interpolation - Format Date
+            Console.WriteLine(StringInterpolation_FormatDate.FormatDate(2025, 05, 11));
         }
     }
 }
