@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Complete C# Course 2025/.vs/Complete C# Course 2025
+/Complete C# Course 2025/obj
