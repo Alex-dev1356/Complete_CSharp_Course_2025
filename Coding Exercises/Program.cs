@@ -9,6 +9,9 @@
 
             //Switch Statement - Describe Day
             Console.WriteLine(SwitchStatement_DescribeDay.DescribeDay(1));
+
+            //While Loop - Calculate Sum of Numbers Between
+            Console.WriteLine(WhileLoop_CalculateSumOfNumbersBetween.CalculateSumOfNumbersBetween(5, 10));
         }
     }
 }
