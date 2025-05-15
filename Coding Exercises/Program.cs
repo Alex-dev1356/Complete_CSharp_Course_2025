@@ -18,6 +18,9 @@
 
             //For Loop - Factorial
             Console.WriteLine(ForLoop_Factorial.Factorial(5));
+
+            //Arrays - Build Hello String
+            Console.WriteLine(Arrays_BuildHelloString.BuildHelloString());
         }
     }
 }
