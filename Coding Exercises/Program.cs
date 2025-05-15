@@ -15,6 +15,9 @@
 
             //Do While Loop - Repeat Character
             Console.WriteLine(DoWhileLoop_RepeatCharacter.RepeatCharacter('a', 0));
+
+            //For Loop - Factorial
+            Console.WriteLine(ForLoop_Factorial.Factorial(5));
         }
     }
 }
