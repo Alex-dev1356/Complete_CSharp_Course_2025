@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Complete C# Course 2025", "Complete C# Course 2025.csproj", "{DCECBCBE-9A17-41E1-89AD-88C6BED87270}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coding Exercises", "..\Coding Exercises\Coding Exercises.csproj", "{C30648DF-698D-4B46-939D-01A0C2930E51}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switch Expressions", "..\Switch Expressions\Switch Expressions.csproj", "{2A43BC88-6230-45A7-A16F-CCFB37D45EA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiDimentionalArrays", "..\..\MultiDimentionalArrays\MultiDimentionalArrays.csproj", "{4C0DF3B2-0E96-465A-B886-994B464EF254}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{2A43BC88-6230-45A7-A16F-CCFB37D45EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A43BC88-6230-45A7-A16F-CCFB37D45EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A43BC88-6230-45A7-A16F-CCFB37D45EA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C0DF3B2-0E96-465A-B886-994B464EF254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C0DF3B2-0E96-465A-B886-994B464EF254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C0DF3B2-0E96-465A-B886-994B464EF254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C0DF3B2-0E96-465A-B886-994B464EF254}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
