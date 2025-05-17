@@ -21,6 +21,9 @@
 
             //Arrays - Build Hello String
             Console.WriteLine(Arrays_BuildHelloString.BuildHelloString());
+
+            //Arrays - Reverse Array
+            Console.WriteLine(Arrays_IsWordPresentInCollection.IsWordPresentInCollection(new[] { "hello", "world" }, "helloooo"));
         }
     }
 }
