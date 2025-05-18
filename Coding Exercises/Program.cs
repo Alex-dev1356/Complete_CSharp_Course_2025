@@ -27,6 +27,9 @@
 
             //Multi-dimensional arrays - Find Max
             Console.WriteLine(MultiDimentionalArrays_FindMax.FindMax(new int[,] { { 1, 2, 3 }, { 4, 5, 6 } }));
+
+            //Foreach loop - Is Any Word Longer Than
+            Console.WriteLine(ForeachLoop_IsAnyWordLongerThan.IsAnyWordLongerThan(5, new[] { "hello", "world" }));
         }
     }
 }
