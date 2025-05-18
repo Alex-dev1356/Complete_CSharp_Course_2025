@@ -24,6 +24,9 @@
 
             //Arrays - Reverse Array
             Console.WriteLine(Arrays_IsWordPresentInCollection.IsWordPresentInCollection(new[] { "hello", "world" }, "helloooo"));
+
+            //Multi-dimensional arrays - Find Max
+            Console.WriteLine(MultiDimentionalArrays_FindMax.FindMax(new int[,] { { 1, 2, 3 }, { 4, 5, 6 } }));
         }
     }
 }
