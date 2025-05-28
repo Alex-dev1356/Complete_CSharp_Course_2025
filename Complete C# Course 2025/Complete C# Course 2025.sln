@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiDimentionalArrays", ".
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lists", "..\Lists\Lists.csproj", "{8A03B6ED-BC3B-4FBB-8910-B8017FAF8F99}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Out Keyword", "..\Out Keyword\Out Keyword.csproj", "{67630D2A-6AFD-4383-812A-459C0E453F01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{8A03B6ED-BC3B-4FBB-8910-B8017FAF8F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A03B6ED-BC3B-4FBB-8910-B8017FAF8F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A03B6ED-BC3B-4FBB-8910-B8017FAF8F99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67630D2A-6AFD-4383-812A-459C0E453F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67630D2A-6AFD-4383-812A-459C0E453F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67630D2A-6AFD-4383-812A-459C0E453F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67630D2A-6AFD-4383-812A-459C0E453F01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
