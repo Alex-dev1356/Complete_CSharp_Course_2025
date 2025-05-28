@@ -1,4 +1,6 @@
-﻿namespace Coding_Exercises
+﻿using System.Threading;
+
+namespace Coding_Exercises
 {
     internal class Program
     {
@@ -30,6 +32,12 @@
 
             //Foreach loop - Is Any Word Longer Than
             Console.WriteLine(ForeachLoop_IsAnyWordLongerThan.IsAnyWordLongerThan(5, new[] { "hello", "world" }));
+
+            //Lists - Get Only Upper Case Words
+            foreach (var uperCaseWords in Lists_GetOlyUpperCaseWords.GetOnlyUpperCaseWords(new List<string> { "one", "TWO", "THREE", "THREE$&@", "TWO", "THREE" }))
+            {
+                Console.WriteLine(uperCaseWords);
+            }
         }
     }
 }
