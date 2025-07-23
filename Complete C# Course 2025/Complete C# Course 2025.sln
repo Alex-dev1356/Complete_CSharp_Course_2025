@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lists", "..\Lists\Lists.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Out Keyword", "..\Out Keyword\Out Keyword.csproj", "{67630D2A-6AFD-4383-812A-459C0E453F01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryParseMethod", "..\TryParseMethod\TryParseMethod.csproj", "{CF151FA6-1858-4081-BD3C-ECFA5C667557}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{67630D2A-6AFD-4383-812A-459C0E453F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67630D2A-6AFD-4383-812A-459C0E453F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67630D2A-6AFD-4383-812A-459C0E453F01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF151FA6-1858-4081-BD3C-ECFA5C667557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF151FA6-1858-4081-BD3C-ECFA5C667557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF151FA6-1858-4081-BD3C-ECFA5C667557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF151FA6-1858-4081-BD3C-ECFA5C667557}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexa\\source\\repos\\Complete C# Course 2025\\Complete_CSharp_Course_2025\\Out Keyword\\Out Keyword.csproj": {}
+    "C:\\Users\\alexa\\source\\repos\\Complete C# Course 2025\\Complete_CSharp_Course_2025\\TryParseMethod\\TryParseMethod.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexa\\source\\repos\\Complete C# Course 2025\\Complete_CSharp_Course_2025\\Out Keyword\\Out Keyword.csproj": {
+    "C:\\Users\\alexa\\source\\repos\\Complete C# Course 2025\\Complete_CSharp_Course_2025\\TryParseMethod\\TryParseMethod.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexa\\source\\repos\\Complete C# Course 2025\\Complete_CSharp_Course_2025\\Out Keyword\\Out Keyword.csproj",
-        "projectName": "Out Keyword",
-        "projectPath": "C:\\Users\\alexa\\source\\repos\\Complete C# Course 2025\\Complete_CSharp_Course_2025\\Out Keyword\\Out Keyword.csproj",
+        "projectUniqueName": "C:\\Users\\alexa\\source\\repos\\Complete C# Course 2025\\Complete_CSharp_Course_2025\\TryParseMethod\\TryParseMethod.csproj",
+        "projectName": "TryParseMethod",
+        "projectPath": "C:\\Users\\alexa\\source\\repos\\Complete C# Course 2025\\Complete_CSharp_Course_2025\\TryParseMethod\\TryParseMethod.csproj",
         "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexa\\source\\repos\\Complete C# Course 2025\\Complete_CSharp_Course_2025\\Out Keyword\\obj\\",
+        "outputPath": "C:\\Users\\alexa\\source\\repos\\Complete C# Course 2025\\Complete_CSharp_Course_2025\\TryParseMethod\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
