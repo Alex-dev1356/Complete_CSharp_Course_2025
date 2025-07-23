@@ -1,0 +1,15 @@
+C:\Users\alexa\source\repos\Complete C# Course 2025\Complete_CSharp_Course_2025\Out Keyword\bin\Debug\net8.0\Out Keyword.exe
+C:\Users\alexa\source\repos\Complete C# Course 2025\Complete_CSharp_Course_2025\Out Keyword\bin\Debug\net8.0\Out Keyword.deps.json
+C:\Users\alexa\source\repos\Complete C# Course 2025\Complete_CSharp_Course_2025\Out Keyword\bin\Debug\net8.0\Out Keyword.runtimeconfig.json
+C:\Users\alexa\source\repos\Complete C# Course 2025\Complete_CSharp_Course_2025\Out Keyword\bin\Debug\net8.0\Out Keyword.dll
+C:\Users\alexa\source\repos\Complete C# Course 2025\Complete_CSharp_Course_2025\Out Keyword\bin\Debug\net8.0\Out Keyword.pdb
+C:\Users\alexa\source\repos\Complete C# Course 2025\Complete_CSharp_Course_2025\Out Keyword\obj\Debug\net8.0\Out Keyword.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexa\source\repos\Complete C# Course 2025\Complete_CSharp_Course_2025\Out Keyword\obj\Debug\net8.0\Out Keyword.AssemblyInfoInputs.cache
+C:\Users\alexa\source\repos\Complete C# Course 2025\Complete_CSharp_Course_2025\Out Keyword\obj\Debug\net8.0\Out Keyword.AssemblyInfo.cs
+C:\Users\alexa\source\repos\Complete C# Course 2025\Complete_CSharp_Course_2025\Out Keyword\obj\Debug\net8.0\Out Keyword.csproj.CoreCompileInputs.cache
+C:\Users\alexa\source\repos\Complete C# Course 2025\Complete_CSharp_Course_2025\Out Keyword\obj\Debug\net8.0\Out Keyword.sourcelink.json
+C:\Users\alexa\source\repos\Complete C# Course 2025\Complete_CSharp_Course_2025\Out Keyword\obj\Debug\net8.0\Out Keyword.dll
+C:\Users\alexa\source\repos\Complete C# Course 2025\Complete_CSharp_Course_2025\Out Keyword\obj\Debug\net8.0\refint\Out Keyword.dll
+C:\Users\alexa\source\repos\Complete C# Course 2025\Complete_CSharp_Course_2025\Out Keyword\obj\Debug\net8.0\Out Keyword.pdb
+C:\Users\alexa\source\repos\Complete C# Course 2025\Complete_CSharp_Course_2025\Out Keyword\obj\Debug\net8.0\Out Keyword.genruntimeconfig.cache
+C:\Users\alexa\source\repos\Complete C# Course 2025\Complete_CSharp_Course_2025\Out Keyword\obj\Debug\net8.0\ref\Out Keyword.dll
