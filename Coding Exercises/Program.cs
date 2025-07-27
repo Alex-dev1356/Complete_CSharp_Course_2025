@@ -38,6 +38,11 @@ namespace Coding_Exercises
             {
                 Console.WriteLine(uperCaseWords);
             }
+        
+            //TryParse Method - Continue To Ask User For A Valid Input
+            var tryParseMethod = new TryParseMethod_ContinueToAskUserForAValidInput();
+            var result = tryParseMethod.ContinueToAskUserForAValidInput();
+            Console.WriteLine($"Parsing successful: {result}");
         }
     }
 }
