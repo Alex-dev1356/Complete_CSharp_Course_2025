@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryParseMethod", "..\TryPar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningByDoing", "..\LearningByDoing\LearningByDoing.csproj", "{A9F742E0-70C9-4EEF-80E1-1318375FBDA5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TODO List", "..\TODO List\TODO List.csproj", "{DCC109E6-4ABC-4C2B-BD57-525F91373A12}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{A9F742E0-70C9-4EEF-80E1-1318375FBDA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9F742E0-70C9-4EEF-80E1-1318375FBDA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9F742E0-70C9-4EEF-80E1-1318375FBDA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCC109E6-4ABC-4C2B-BD57-525F91373A12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCC109E6-4ABC-4C2B-BD57-525F91373A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCC109E6-4ABC-4C2B-BD57-525F91373A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCC109E6-4ABC-4C2B-BD57-525F91373A12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
