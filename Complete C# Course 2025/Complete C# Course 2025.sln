@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningByDoing", "..\Learn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TODO List", "..\TODO List\TODO List.csproj", "{DCC109E6-4ABC-4C2B-BD57-525F91373A12}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectOrientedProgramming", "..\ObjectOrientedProgramming\ObjectOrientedProgramming.csproj", "{3ACB3EC9-AA52-4741-B48F-231754DBFA37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{DCC109E6-4ABC-4C2B-BD57-525F91373A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCC109E6-4ABC-4C2B-BD57-525F91373A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCC109E6-4ABC-4C2B-BD57-525F91373A12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ACB3EC9-AA52-4741-B48F-231754DBFA37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ACB3EC9-AA52-4741-B48F-231754DBFA37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ACB3EC9-AA52-4741-B48F-231754DBFA37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ACB3EC9-AA52-4741-B48F-231754DBFA37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
