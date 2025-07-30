@@ -1,6 +1,6 @@
 ﻿namespace OOP_Abstraction
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -8,6 +8,9 @@
             //the underlying details.
 
             var rectangle1 = new Rectangle(5,10);
+
+            //Accessing the width and height of rectangle
+            Console.WriteLine("Width: {0} Height: {1}", rectangle1._width, rectangle1._height);
         }
     }
 }
