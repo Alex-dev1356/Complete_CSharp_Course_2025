@@ -25,7 +25,16 @@ namespace OOP_Abstraction
              _height = height;
         }
 
+        //Declaring a method - The name of a method should start with a verb, as it describes an action.
+        public int CalculateCircumference()
+        {
+            return 2 * (_width + _height);
+        }
 
+        public int CalculateArea()
+        {
+            return _width * _height;
+        }
         
     }
 }
