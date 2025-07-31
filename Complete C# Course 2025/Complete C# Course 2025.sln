@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectOrientedProgramming",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_Abstraction", "..\OOP_Abstraction\OOP_Abstraction.csproj", "{0118C38A-1A92-4E84-BB90-6D3C5671D090}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_Encapsulation", "..\OOP_Encapsulation\OOP_Encapsulation.csproj", "{535CBFAB-3F72-4B6E-B8CF-69CA4C51DA3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{0118C38A-1A92-4E84-BB90-6D3C5671D090}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0118C38A-1A92-4E84-BB90-6D3C5671D090}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0118C38A-1A92-4E84-BB90-6D3C5671D090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{535CBFAB-3F72-4B6E-B8CF-69CA4C51DA3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{535CBFAB-3F72-4B6E-B8CF-69CA4C51DA3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{535CBFAB-3F72-4B6E-B8CF-69CA4C51DA3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{535CBFAB-3F72-4B6E-B8CF-69CA4C51DA3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
