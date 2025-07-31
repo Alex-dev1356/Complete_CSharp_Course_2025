@@ -43,6 +43,10 @@ namespace Coding_Exercises
             var tryParseMethod = new TryParseMethod_ContinueToAskUserForAValidInput();
             var result = tryParseMethod.ContinueToAskUserForAValidInput();
             Console.WriteLine($"Parsing successful: {result}");
+
+            //OOP - Hotel Booking
+            var hotelBooking = new OOP_HotelBooking("John Doe", new DateTime(2023, 10, 1), 5);
+            Console.WriteLine("Hotel Booking: Name: {0}, Start Date: {1}, End Date: {2}", hotelBooking.GuestName, hotelBooking.StartDate, hotelBooking.EndtDate);
         }
     }
 }
