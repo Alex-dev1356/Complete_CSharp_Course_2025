@@ -47,6 +47,11 @@ namespace Coding_Exercises
             //OOP - Hotel Booking
             var hotelBooking = new OOP_HotelBooking("John Doe", new DateTime(2023, 10, 1), 5);
             Console.WriteLine("Hotel Booking: Name: {0}, Start Date: {1}, End Date: {2}", hotelBooking.GuestName, hotelBooking.StartDate, hotelBooking.EndtDate);
+
+            //OOP - The Triangle Class
+            var triangle = new OOP_TheTriangleClass(3, 5);
+            Console.WriteLine("The Triangle: Base: {0}, Height: {1}, Area: {2}", triangle._base, triangle._height, triangle.CalculateArea());
+            Console.WriteLine("Triangle Description: {0}", triangle.AsString());
         }
     }
 }
