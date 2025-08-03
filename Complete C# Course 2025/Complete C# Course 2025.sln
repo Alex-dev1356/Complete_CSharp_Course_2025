@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_Abstraction", "..\OOP_A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_Encapsulation", "..\OOP_Encapsulation\OOP_Encapsulation.csproj", "{535CBFAB-3F72-4B6E-B8CF-69CA4C51DA3B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor_Overloading", "..\Constructor_Overloading\Constructor_Overloading.csproj", "{3D294C6D-0949-43F8-AFF3-AA287F2B2F5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{535CBFAB-3F72-4B6E-B8CF-69CA4C51DA3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{535CBFAB-3F72-4B6E-B8CF-69CA4C51DA3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{535CBFAB-3F72-4B6E-B8CF-69CA4C51DA3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D294C6D-0949-43F8-AFF3-AA287F2B2F5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D294C6D-0949-43F8-AFF3-AA287F2B2F5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D294C6D-0949-43F8-AFF3-AA287F2B2F5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D294C6D-0949-43F8-AFF3-AA287F2B2F5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
