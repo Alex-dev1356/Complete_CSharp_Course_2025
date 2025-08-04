@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor_Overloading", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lambda_Expression", "..\Lambda_Expression\Lambda_Expression.csproj", "{EE7D42B1-DC19-4355-9CFE-6BB77A129F85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "this_Keyword_for_Instance_of_Class", "..\this_Keyword_for_Instance_of_Class\this_Keyword_for_Instance_of_Class.csproj", "{DCAF3588-FB7A-47C2-8CE2-AC440BDF8216}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{EE7D42B1-DC19-4355-9CFE-6BB77A129F85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE7D42B1-DC19-4355-9CFE-6BB77A129F85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE7D42B1-DC19-4355-9CFE-6BB77A129F85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCAF3588-FB7A-47C2-8CE2-AC440BDF8216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCAF3588-FB7A-47C2-8CE2-AC440BDF8216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCAF3588-FB7A-47C2-8CE2-AC440BDF8216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCAF3588-FB7A-47C2-8CE2-AC440BDF8216}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
