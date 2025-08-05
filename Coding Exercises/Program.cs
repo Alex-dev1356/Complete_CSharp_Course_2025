@@ -52,6 +52,10 @@ namespace Coding_Exercises
             var triangle = new OOP_TheTriangleClass(3, 5);
             Console.WriteLine("The Triangle: Base: {0}, Height: {1}, Area: {2}", triangle._base, triangle._height, triangle.CalculateArea());
             Console.WriteLine("Triangle Description: {0}", triangle.AsString());
+
+            //OOP - Dog Class
+            var dog = new OOP_DogClass("Rex", "Golden Retriever", 10);
+            Console.WriteLine("Dog Description: {0}", dog.Describe());
         }
     }
 }
