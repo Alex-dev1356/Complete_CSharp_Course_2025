@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validation_Of_Constructor_P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadOnly_And_Const", "..\ReadOnly_And_Const\ReadOnly_And_Const.csproj", "{2AA5F953-2A86-4D02-B47B-0D4790A00255}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Properties", "..\Properties\Properties.csproj", "{32FFAE42-701B-4456-9344-2A367E5BFA4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{2AA5F953-2A86-4D02-B47B-0D4790A00255}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AA5F953-2A86-4D02-B47B-0D4790A00255}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AA5F953-2A86-4D02-B47B-0D4790A00255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32FFAE42-701B-4456-9344-2A367E5BFA4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32FFAE42-701B-4456-9344-2A367E5BFA4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32FFAE42-701B-4456-9344-2A367E5BFA4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32FFAE42-701B-4456-9344-2A367E5BFA4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
