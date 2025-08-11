@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadOnly_And_Const", "..\Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Properties", "..\Properties\Properties.csproj", "{32FFAE42-701B-4456-9344-2A367E5BFA4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectInitializers", "..\ObjectInitializers\ObjectInitializers.csproj", "{681D7BA0-D275-4E2C-B7BE-290BD66FBE05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{32FFAE42-701B-4456-9344-2A367E5BFA4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32FFAE42-701B-4456-9344-2A367E5BFA4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32FFAE42-701B-4456-9344-2A367E5BFA4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{681D7BA0-D275-4E2C-B7BE-290BD66FBE05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{681D7BA0-D275-4E2C-B7BE-290BD66FBE05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{681D7BA0-D275-4E2C-B7BE-290BD66FBE05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{681D7BA0-D275-4E2C-B7BE-290BD66FBE05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
