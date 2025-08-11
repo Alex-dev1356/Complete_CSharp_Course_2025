@@ -56,6 +56,10 @@ namespace Coding_Exercises
             //OOP - Dog Class
             var dog = new OOP_DogClass("Rex", "Golden Retriever", 10);
             Console.WriteLine("Dog Description: {0}", dog.Describe());
+
+            //Properties - PropertiesOfTheOrderClass
+            var order = new Order("Shoes", DateTime.Now);
+            Console.WriteLine("Order: Item: {0}, Date: {1}", order.Item, order.Date);
         }
     }
 }
