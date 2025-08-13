@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Properties", "..\Properties
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectInitializers", "..\ObjectInitializers\ObjectInitializers.csproj", "{681D7BA0-D275-4E2C-B7BE-290BD66FBE05}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComputedProperties", "..\ComputedProperties\ComputedProperties.csproj", "{76A7B699-1DD8-4958-B728-6880E70CD019}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{681D7BA0-D275-4E2C-B7BE-290BD66FBE05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{681D7BA0-D275-4E2C-B7BE-290BD66FBE05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{681D7BA0-D275-4E2C-B7BE-290BD66FBE05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76A7B699-1DD8-4958-B728-6880E70CD019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76A7B699-1DD8-4958-B728-6880E70CD019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76A7B699-1DD8-4958-B728-6880E70CD019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76A7B699-1DD8-4958-B728-6880E70CD019}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

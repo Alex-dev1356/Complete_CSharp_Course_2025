@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("this_Keyword_for_Instance_of_Class")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1eab3dc087963a9e5d9c535af3dd8e316e1f0d95")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6a86842c4953b19c42024c2d4e425a8632720b4")]
 [assembly: System.Reflection.AssemblyProductAttribute("this_Keyword_for_Instance_of_Class")]
 [assembly: System.Reflection.AssemblyTitleAttribute("this_Keyword_for_Instance_of_Class")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
