@@ -60,6 +60,9 @@ namespace Coding_Exercises
             //Properties - PropertiesOfTheOrderClass
             var order = new Order("Shoes", DateTime.Now);
             Console.WriteLine("Order: Item: {0}, Date: {1}", order.Item, order.Date);
+
+            //static classes - Number to Day of Week Translator
+            Console.WriteLine(StaticClasses_NumberToDayOfWeekTransalator.Translate(1));
         }
     }
 }
