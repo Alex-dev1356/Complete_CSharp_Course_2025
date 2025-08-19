@@ -63,6 +63,9 @@ namespace Coding_Exercises
 
             //static classes - Number to Day of Week Translator
             Console.WriteLine(StaticClasses_NumberToDayOfWeekTransalator.Translate(1));
+
+            // String_Split_And_String_Join_Methods - Transform Separators
+            Console.WriteLine(String_Split_And_String_Join_Methods.TransformSeparators("a,b,c", ",", "-"));
         }
     }
 }
