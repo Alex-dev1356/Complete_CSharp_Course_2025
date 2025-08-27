@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NamesBeforeRefactorToSRP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2420774a9540458a08610262f9bcbad2c043a898")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2eb20cfea814488b4de335a11ad0387adc20be27")]
 [assembly: System.Reflection.AssemblyProductAttribute("NamesBeforeRefactorToSRP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NamesBeforeRefactorToSRP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

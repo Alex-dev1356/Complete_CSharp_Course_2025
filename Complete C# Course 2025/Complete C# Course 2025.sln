@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpFundamentals", "..\CS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamesBeforeRefactorToSRP", "..\NamesBeforeRefactorToSRP\NamesBeforeRefactorToSRP.csproj", "{192AFAC6-C411-4FF2-85E4-2918CBB31B5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamesAfterRefactorToSRP", "..\NamesAfterRefactorToSRP\NamesAfterRefactorToSRP.csproj", "{3D5DED00-1D46-4B7B-A436-E2E7AA084389}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{192AFAC6-C411-4FF2-85E4-2918CBB31B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{192AFAC6-C411-4FF2-85E4-2918CBB31B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{192AFAC6-C411-4FF2-85E4-2918CBB31B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D5DED00-1D46-4B7B-A436-E2E7AA084389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D5DED00-1D46-4B7B-A436-E2E7AA084389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D5DED00-1D46-4B7B-A436-E2E7AA084389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D5DED00-1D46-4B7B-A436-E2E7AA084389}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
