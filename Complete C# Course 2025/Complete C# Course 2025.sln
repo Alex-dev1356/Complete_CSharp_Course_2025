@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NamesAfterRefactorToSRP", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiceRollGame", "..\DiceRollGame\DiceRollGame.csproj", "{102488CA-6CAF-4271-8BCA-6EAF565E9682}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumsAndCasting", "..\EnumsAndCasting\EnumsAndCasting.csproj", "{D79039A4-5CF6-4A3F-AA12-3D012A393B85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{102488CA-6CAF-4271-8BCA-6EAF565E9682}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{102488CA-6CAF-4271-8BCA-6EAF565E9682}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{102488CA-6CAF-4271-8BCA-6EAF565E9682}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D79039A4-5CF6-4A3F-AA12-3D012A393B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D79039A4-5CF6-4A3F-AA12-3D012A393B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D79039A4-5CF6-4A3F-AA12-3D012A393B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D79039A4-5CF6-4A3F-AA12-3D012A393B85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
