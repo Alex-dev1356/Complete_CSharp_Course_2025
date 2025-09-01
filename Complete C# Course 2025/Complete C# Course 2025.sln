@@ -57,6 +57,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiceRollGame", "..\DiceRoll
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumsAndCasting", "..\EnumsAndCasting\EnumsAndCasting.csproj", "{D79039A4-5CF6-4A3F-AA12-3D012A393B85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "..\ExtensionMethods\ExtensionMethods.csproj", "{3A11306E-33F3-41BF-9DFE-E60C1D0DBBEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactoringDiceRollGame", "..\RefactoringDiceRollGame\RefactoringDiceRollGame.csproj", "{E35AB605-CDC0-4BA8-8D26-001D343CD310}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +175,14 @@ Global
 		{D79039A4-5CF6-4A3F-AA12-3D012A393B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D79039A4-5CF6-4A3F-AA12-3D012A393B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D79039A4-5CF6-4A3F-AA12-3D012A393B85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A11306E-33F3-41BF-9DFE-E60C1D0DBBEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A11306E-33F3-41BF-9DFE-E60C1D0DBBEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A11306E-33F3-41BF-9DFE-E60C1D0DBBEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A11306E-33F3-41BF-9DFE-E60C1D0DBBEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E35AB605-CDC0-4BA8-8D26-001D343CD310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E35AB605-CDC0-4BA8-8D26-001D343CD310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E35AB605-CDC0-4BA8-8D26-001D343CD310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E35AB605-CDC0-4BA8-8D26-001D343CD310}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
