@@ -31,17 +31,25 @@
 
             //TryParseMethod execution
             #region
-            var tryParse = TryParseMethod.TryParseMethodExecution();
-            if (tryParse > 0)
-            {
-                Console.WriteLine($"Parsing successful. Result: {tryParse}");
-            }
-            else
-            {
-                //By Default if the TryParse Method fails the result will be 0
-                Console.WriteLine($"tryParse value if failed parsing: {tryParse}");
-                Console.WriteLine("Parsing was not successful or the result is zero.");
-            }
+            //var tryParse = TryParseMethod.TryParseMethodExecution();
+            //if (tryParse > 0)
+            //{
+            //    Console.WriteLine($"Parsing successful. Result: {tryParse}");
+            //}
+            //else
+            //{
+            //    //By Default if the TryParse Method fails the result will be 0
+            //    Console.WriteLine($"tryParse value if failed parsing: {tryParse}");
+            //    Console.WriteLine("Parsing was not successful or the result is zero.");
+            //}
+            #endregion
+
+            //Implementing Dice Roll Game
+            #region
+            var dice = new Dice(new Random());
+            var guessingGame = new GuessingGame(dice);
+            var gameResult = guessingGame.Play();
+            guessingGame.PrintResult(gameResult);
             #endregion
         }
     }
