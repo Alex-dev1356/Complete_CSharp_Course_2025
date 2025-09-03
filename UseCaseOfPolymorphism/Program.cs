@@ -32,19 +32,35 @@
         ingredient.
     */
 
+    /*
+        Inheritance - is an "is-a" kind of relationship. Cheddar "is-a" Ingredient, TomatoSauce "is-a" 
+        Ingredient and Mozzarella "is-a" Ingredient.
+
+        Inheritance enables us to create new classes that reuse, extend, and modify the behavior defined
+        in other classes.
+
+        The class whose members are inherited is called the base class, and the class that inherits those
+        members is called the derived class.
+     */
+
     public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            //After all the classes inherit from the base class "Ingredient", we can create a pizza object
+            var pizza = new Pizza();
+            pizza.AddIngredient(new Cheddar());
+            pizza.AddIngredient(new TomatoSauce());
+            pizza.AddIngredient(new Mozzarella());
+            Console.WriteLine(pizza.Describe());
         }
     }
 
     public class Pizza
     {
-        private List<> _ingredients = new List<>();
+        private List<Ingredient> _ingredients = new List<Ingredient>();
 
-        public void AddIngredient<T>(T ingredient) =>
+        public void AddIngredient(Ingredient ingredient) =>
             _ingredients.Add(ingredient);
 
         public string Describe() =>
@@ -59,20 +75,20 @@
         //For now let's leave this class empty. It will be used as a base class
     }
 
-    public class Cheddar
+    public class Cheddar : Ingredient
     {
         public string Name => "Cheddar cheese";
         public int AgedForMonths { get; }
 
     }
 
-    public class TomatoSauce
+    public class TomatoSauce : Ingredient
     {
         public string Name => "Tomato sauce";
         public int TomatosIn100Grams{ get; }
     }
 
-    public class Mozzarella
+    public class Mozzarella : Ingredient
     {
         public string Name => "Mozarella";
         public bool IsLight { get; }   
