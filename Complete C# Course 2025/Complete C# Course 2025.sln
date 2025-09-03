@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "..\Exte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactoringDiceRollGame", "..\RefactoringDiceRollGame\RefactoringDiceRollGame.csproj", "{E35AB605-CDC0-4BA8-8D26-001D343CD310}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCaseOfPolymorphism", "..\UseCaseOfPolymorphism\UseCaseOfPolymorphism.csproj", "{59B299BA-CD5D-4184-BCA6-EA54DFD8B566}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +185,10 @@ Global
 		{E35AB605-CDC0-4BA8-8D26-001D343CD310}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E35AB605-CDC0-4BA8-8D26-001D343CD310}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E35AB605-CDC0-4BA8-8D26-001D343CD310}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59B299BA-CD5D-4184-BCA6-EA54DFD8B566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59B299BA-CD5D-4184-BCA6-EA54DFD8B566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59B299BA-CD5D-4184-BCA6-EA54DFD8B566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59B299BA-CD5D-4184-BCA6-EA54DFD8B566}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
