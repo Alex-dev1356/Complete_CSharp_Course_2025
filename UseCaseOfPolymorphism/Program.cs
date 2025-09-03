@@ -43,6 +43,11 @@
         members is called the derived class.
      */
 
+    /*
+        Protected members can be used in the derived classes, but they can't be
+        used outside.
+     */
+
     public class Program
     {
         static void Main(string[] args)
@@ -53,6 +58,20 @@
             pizza.AddIngredient(new TomatoSauce());
             pizza.AddIngredient(new Mozzarella());
             Console.WriteLine(pizza.Describe());
+
+            //Calling the public method from the base class
+            var ingredient = new Cheddar();
+            Console.WriteLine(ingredient.PulicMethod());
+
+            //Using the Public field from the base class, but assigning different values
+            //to it in the derived classes
+            ingredient.PublicField = 10;
+            var cheddar = new Cheddar();
+            cheddar.PublicField = 20;
+
+            //Printing the values of the Public field from the base class
+            Console.WriteLine($"Ingredient: {ingredient.PublicField}");
+            Console.WriteLine($"Cheddar: {cheddar.PublicField}");
         }
     }
 
@@ -72,13 +91,37 @@
     //on the List of the Pizza class.
     public class Ingredient
     {
-        //For now let's leave this class empty. It will be used as a base class
+        //Declaring a public field
+        //Note:Objects of classes derived from this base class will also have such fields,
+        //but the values will be independent. The value stored in this field is not shared in any way.
+        public int PublicField;
+
+        //This method can be called from any class that inherits from the "Ingredient" class
+        public string PulicMethod() =>
+            "This method is PUBLIC in the Ingredient class";
+
+        //Protected Modifier - The method can be used in the derived classes, but not outside
+        protected string ProtectedMethod() =>
+            "This method is PROTECTED in the Ingredient class";
     }
 
     public class Cheddar : Ingredient
     {
         public string Name => "Cheddar cheese";
         public int AgedForMonths { get; }
+
+        //We can call the public method from the base class. Unlike public methods, private methods
+        //are NOT INHERITED
+        public void UseMethodsFromTheBaseClass()
+        {
+            Console.WriteLine(PulicMethod());
+        }
+
+        //We can call the protected method from the base class.
+        public void UseMethodsFromTheBaseClass2()
+        {
+            Console.WriteLine(ProtectedMethod());
+        }
 
     }
 
