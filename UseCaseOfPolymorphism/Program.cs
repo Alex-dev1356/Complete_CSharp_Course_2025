@@ -44,8 +44,13 @@
      */
 
     /*
-        Protected members can be used in the derived classes, but they can't be
-        used outside.
+       Protected members can be used in the derived classes, but they can't be
+       used outside.
+    */
+
+    /*
+      NOTE: We should make methods and properties virtual if we intend them to be overridden 
+            in the derived classes.
      */
 
     public class Program
@@ -72,6 +77,26 @@
             //Printing the values of the Public field from the base class
             Console.WriteLine($"Ingredient: {ingredient.PublicField}");
             Console.WriteLine($"Cheddar: {cheddar.PublicField}");
+
+            //Finding out what will be printed on Cheddar Name and Ingredient Name properties
+            Ingredient someIngredient = new Cheddar();
+            Console.WriteLine("Variable of type Ingredient: " + someIngredient.Name);
+            Console.WriteLine("Variable of type Cheddar: " + cheddar.Name);
+
+            //Storing of Type Ingredient into a List
+            List<Ingredient> ingredients = new List<Ingredient>()
+            {
+                new Cheddar(),
+                new TomatoSauce(),
+                new Mozzarella()
+            };
+
+            //Printing the Name property of each Ingredient in the List
+            foreach (var ingredientItem in ingredients)
+            {
+                Console.WriteLine(ingredientItem.Name);
+            }
+
         }
     }
 
@@ -91,6 +116,10 @@
     //on the List of the Pizza class.
     public class Ingredient
     {
+        //Declaring Name Property to be used for the derived classes and making it virtual so that
+        //the derived classes can override it and implement their own logic for the Name Property.
+        public virtual string Name { get; } = "Some ingredient";
+
         //Declaring a public field
         //Note:Objects of classes derived from this base class will also have such fields,
         //but the values will be independent. The value stored in this field is not shared in any way.
@@ -107,7 +136,9 @@
 
     public class Cheddar : Ingredient
     {
-        public string Name => "Cheddar cheese";
+        //Overriding the virtual Name Property from the base class using the Virtual keyword to
+        //implement our own logic for the Cheddar class
+        public override string Name => "Cheddar cheese";
         public int AgedForMonths { get; }
 
         //We can call the public method from the base class. Unlike public methods, private methods
@@ -127,12 +158,14 @@
 
     public class TomatoSauce : Ingredient
     {
-        public string Name => "Tomato sauce";
+        public override string Name => "Tomato sauce";
         public int TomatosIn100Grams{ get; }
     }
 
     public class Mozzarella : Ingredient
     {
+        //We eill not override the Name Property from the base class, for example purposes
+        //It will use the Name Property from the base class
         public string Name => "Mozarella";
         public bool IsLight { get; }   
     }
