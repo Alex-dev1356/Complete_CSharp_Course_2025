@@ -46,11 +46,35 @@
 
             //Implementing Dice Roll Game
             #region
-            var dice = new Dice(new Random());
-            var guessingGame = new GuessingGame(dice);
-            var gameResult = guessingGame.Play();
-            guessingGame.PrintResult(gameResult);
+            //var dice = new Dice(new Random());
+            //var guessingGame = new GuessingGame(dice);
+            //var gameResult = guessingGame.Play();
+            //guessingGame.PrintResult(gameResult);
             #endregion
+
+            //Implementing PracticeVirtualMethod
+            var numbers = new List<int> { 1, 4, 6, -1, 12, 44, -8, -19 };
+            bool shallAddPositiveNumbersOnly = true;
+
+            int sum;
+            //Improving the code using ? operator
+            NumbersSumCalculator calculator = shallAddPositiveNumbersOnly ? 
+                new PositiveNumbersSumCalculator() : 
+                new NumbersSumCalculator();
+            
+            sum = calculator.Calculate(numbers);
+
+            //Old Code without using ? operator
+            //if (shallAddPositiveNumbersOnly)
+            //{
+            //    sum = new PositiveNumbersSumCalculator().Calculate(numbers);
+            //}
+            //else
+            //{
+            //    sum = new NumbersSumCalculator().Calculate(numbers);
+            //}
+            Console.WriteLine("Sum is: " + sum);
+            Console.ReadKey();
         }
     }
 }
