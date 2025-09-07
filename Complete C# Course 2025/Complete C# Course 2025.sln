@@ -65,6 +65,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCaseOfPolymorphism", "..
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceAndOverridingAnimalsExercise", "..\InheritanceAndOverridingAnimalsExercise\InheritanceAndOverridingAnimalsExercise.csproj", "{AA526669-D88E-404A-AD9C-8D5849604460}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualMethods_StringProcessor", "..\VirtualMethods_StringProcessor\VirtualMethods_StringProcessor.csproj", "{CAC60A01-F4AF-4203-B773-FCEBF68B6430}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +197,10 @@ Global
 		{AA526669-D88E-404A-AD9C-8D5849604460}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA526669-D88E-404A-AD9C-8D5849604460}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA526669-D88E-404A-AD9C-8D5849604460}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAC60A01-F4AF-4203-B773-FCEBF68B6430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAC60A01-F4AF-4203-B773-FCEBF68B6430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAC60A01-F4AF-4203-B773-FCEBF68B6430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAC60A01-F4AF-4203-B773-FCEBF68B6430}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
