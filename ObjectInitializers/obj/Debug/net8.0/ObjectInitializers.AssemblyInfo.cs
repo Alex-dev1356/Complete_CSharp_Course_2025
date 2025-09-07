@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ObjectInitializers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2db0a8de14ce51572e8c1df7c715822d88e40d9c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5aad0c038c3304a82f96692e0ce3052e3e50c7a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ObjectInitializers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ObjectInitializers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
