@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactoringDiceRollGame", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCaseOfPolymorphism", "..\UseCaseOfPolymorphism\UseCaseOfPolymorphism.csproj", "{59B299BA-CD5D-4184-BCA6-EA54DFD8B566}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceAndOverridingAnimalsExercise", "..\InheritanceAndOverridingAnimalsExercise\InheritanceAndOverridingAnimalsExercise.csproj", "{AA526669-D88E-404A-AD9C-8D5849604460}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +191,10 @@ Global
 		{59B299BA-CD5D-4184-BCA6-EA54DFD8B566}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59B299BA-CD5D-4184-BCA6-EA54DFD8B566}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59B299BA-CD5D-4184-BCA6-EA54DFD8B566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA526669-D88E-404A-AD9C-8D5849604460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA526669-D88E-404A-AD9C-8D5849604460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA526669-D88E-404A-AD9C-8D5849604460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA526669-D88E-404A-AD9C-8D5849604460}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

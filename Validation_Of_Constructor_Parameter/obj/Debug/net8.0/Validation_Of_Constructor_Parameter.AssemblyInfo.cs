@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Validation_Of_Constructor_Parameter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed8ee6a6559cf978094bdc91dfbfdd2f96d608cf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6645d151c9b790fa9b4b385d5f02c795947fd63")]
 [assembly: System.Reflection.AssemblyProductAttribute("Validation_Of_Constructor_Parameter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Validation_Of_Constructor_Parameter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
