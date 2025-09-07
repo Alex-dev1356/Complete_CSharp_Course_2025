@@ -50,6 +50,7 @@
                 result.Add(animal.NumberOfLegs);
             }
             return result;
+
         }
     }
 
@@ -57,8 +58,7 @@
 
     public class Animal
     {
-        public virtual int NumberOfLegs => 4;
-        public int MyProperty { get; set; }
+        public virtual int NumberOfLegs { get; } = 4;
 
     }
 
@@ -74,7 +74,7 @@
 
     public class Duck : Animal
     {
-        public override int NumberOfLegs => 2;
+        public override int NumberOfLegs { get; } = 2;
     }
 
     public class Spider : Animal
