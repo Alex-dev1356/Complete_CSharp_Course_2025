@@ -134,7 +134,16 @@
             "This method is PROTECTED in the Ingredient class";
     }
 
-    public class Cheddar : Ingredient
+    //Declaring Cheese Class and inherit it from the "Ingredient" class as Cheddar and Mozzarella
+    //are both cheeses
+    public class Cheese : Ingredient 
+    {
+        //After defining the Cheese class, we can make Cheddar and Mozzarella derive from
+        //the Cheese class instead of directly from the "Ingredient" class. This is called
+        //HIERARCHICAL INHERITANCE where a derived class inherits from another derived class.
+    }
+
+    public class Cheddar : Cheese
     {
         //Overriding the virtual Name Property from the base class using the Virtual keyword to
         //implement our own logic for the Cheddar class
@@ -162,7 +171,7 @@
         public int TomatosIn100Grams{ get; }
     }
 
-    public class Mozzarella : Ingredient
+    public class Mozzarella : Cheese
     {
         //We eill not override the Name Property from the base class, for example purposes
         //It will use the Name Property from the base class
