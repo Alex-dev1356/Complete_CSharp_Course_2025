@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VirtualMethods_StringProcessorRefactored")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5aad0c038c3304a82f96692e0ce3052e3e50c7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf80f787f7c7630928292c424f2b5aa6060a3e58")]
 [assembly: System.Reflection.AssemblyProductAttribute("VirtualMethods_StringProcessorRefactored")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VirtualMethods_StringProcessorRefactored")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
