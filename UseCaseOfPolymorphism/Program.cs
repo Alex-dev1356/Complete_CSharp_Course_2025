@@ -97,6 +97,12 @@
                 Console.WriteLine(ingredientItem.Name);
             }
 
+
+            //System.Object and the ToString Method
+            //All classes in C# derive from System.Object that is why we can call the ToString method
+            //on any object of any class.
+            Console.WriteLine(cheddar.ToString());
+
         }
     }
 
@@ -107,7 +113,12 @@
         public void AddIngredient(Ingredient ingredient) =>
             _ingredients.Add(ingredient);
 
-        public string Describe() =>
+        //public string Describe() =>
+        //    $"This is a pizza with {string.Join(", ", _ingredients)}";
+
+        //Overriding here the ToString method from the System.Object class instead of using the
+        //Describe method to avoid confusion from other developers that might use this class.
+        public override string ToString() =>
             $"This is a pizza with {string.Join(", ", _ingredients)}";
     }
 
@@ -116,6 +127,11 @@
     //on the List of the Pizza class.
     public class Ingredient
     {
+        //Overriding the ToString method, we override the normal implementation of ToString method
+        //in the System.Object class so the Describe method will print the Name property since it
+        //calls the ToString method under the hood.
+        public override string ToString() => Name;
+
         //Declaring Name Property to be used for the derived classes and making it virtual so that
         //the derived classes can override it and implement their own logic for the Name Property.
         public virtual string Name { get; } = "Some ingredient";
@@ -173,7 +189,7 @@
 
     public class Mozzarella : Cheese
     {
-        //We eill not override the Name Property from the base class, for example purposes
+        //We will not override the Name Property from the base class, for example purposes
         //It will use the Name Property from the base class
         public string Name => "Mozarella";
         public bool IsLight { get; }   
