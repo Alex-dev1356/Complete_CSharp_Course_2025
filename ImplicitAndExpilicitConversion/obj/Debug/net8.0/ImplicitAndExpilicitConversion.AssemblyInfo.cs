@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ImplicitAndExpilicitConversion")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3fc4c0e1bbc06170efc899cd3a8657308dfcca9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7228afc26d552ad18fde52b6401cb3182679c3bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("ImplicitAndExpilicitConversion")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ImplicitAndExpilicitConversion")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
