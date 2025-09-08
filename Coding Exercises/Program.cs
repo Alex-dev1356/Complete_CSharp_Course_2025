@@ -66,6 +66,9 @@ namespace Coding_Exercises
 
             // String_Split_And_String_Join_Methods - Transform Separators
             Console.WriteLine(String_Split_And_String_Join_Methods.TransformSeparators("a,b,c", ",", "-"));
+
+            //NumericTypeDescriber - DescribeType
+            Console.WriteLine(NumericTypesDescriber.Describe(1.5m));
         }
     }
 }
