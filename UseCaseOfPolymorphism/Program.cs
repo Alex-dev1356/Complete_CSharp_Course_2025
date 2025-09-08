@@ -59,19 +59,22 @@
         {
             //After all the classes inherit from the base class "Ingredient", we can create a pizza object
             var pizza = new Pizza();
-            pizza.AddIngredient(new Cheddar());
-            pizza.AddIngredient(new TomatoSauce());
-            pizza.AddIngredient(new Mozzarella());
-            Console.WriteLine(pizza.Describe());
+            pizza.AddIngredient(new Cheddar(4,2));
+            pizza.AddIngredient(new TomatoSauce(3));
+            pizza.AddIngredient(new Mozzarella(2));
+            //Old Implementation using the Describe method before we implemented the ToString method
+            //Console.WriteLine(pizza.Describe());
+            //New Implementation using the ToString method
+            Console.WriteLine(pizza.ToString());
 
             //Calling the public method from the base class
-            var ingredient = new Cheddar();
+            var ingredient = new Cheddar(4, 2);
             Console.WriteLine(ingredient.PulicMethod());
 
             //Using the Public field from the base class, but assigning different values
             //to it in the derived classes
             ingredient.PublicField = 10;
-            var cheddar = new Cheddar();
+            var cheddar = new Cheddar(4, 2);
             cheddar.PublicField = 20;
 
             //Printing the values of the Public field from the base class
@@ -79,16 +82,16 @@
             Console.WriteLine($"Cheddar: {cheddar.PublicField}");
 
             //Finding out what will be printed on Cheddar Name and Ingredient Name properties
-            Ingredient someIngredient = new Cheddar();
+            Ingredient someIngredient = new Cheddar(4, 2);
             Console.WriteLine("Variable of type Ingredient: " + someIngredient.Name);
             Console.WriteLine("Variable of type Cheddar: " + cheddar.Name);
 
             //Storing of Type Ingredient into a List
             List<Ingredient> ingredients = new List<Ingredient>()
             {
-                new Cheddar(),
-                new TomatoSauce(),
-                new Mozzarella()
+                new Cheddar(4, 2),
+                new TomatoSauce(3),
+                new Mozzarella(2)
             };
 
             //Printing the Name property of each Ingredient in the List
@@ -127,6 +130,18 @@
     //on the List of the Pizza class.
     public class Ingredient
     {
+        //Creating a constructor for Ingredient class
+        public Ingredient(int priceIfExtraTopping)
+        {
+            Console.WriteLine(
+                "Constructor from the Ingredient class.");
+            PriceIfExtraTopping = priceIfExtraTopping;
+        }
+
+        //Adding addition property to the base class and will set it to the Constructor, we want the 
+        //user of the Ingredient Class to be able to set the price of the extra topping on the pizza
+        public int PriceIfExtraTopping { get; }
+
         //Overriding the ToString method, we override the normal implementation of ToString method
         //in the System.Object class so the Describe method will print the Name property since it
         //calls the ToString method under the hood.
@@ -157,13 +172,37 @@
         //After defining the Cheese class, we can make Cheddar and Mozzarella derive from
         //the Cheese class instead of directly from the "Ingredient" class. This is called
         //HIERARCHICAL INHERITANCE where a derived class inherits from another derived class.
+
+        //Creating a constructor for Cheese class and calling the base class constructor using the
+        //base keyword to pass the Argument priceIfExtraTopping to the base class constructor and
+        //override the default value from the base class constructor by passing it as an argument.
+        public Cheese(int priceIfExtraTopping) : base(priceIfExtraTopping)
+        {
+            Console.WriteLine(
+                "Constructor from the Cheese class.");
+        }
     }
 
     public class Cheddar : Cheese
     {
-        //Overriding the virtual Name Property from the base class using the Virtual keyword to
-        //implement our own logic for the Cheddar class
-        public override string Name => "Cheddar cheese";
+        //Creating a constructor for Cheddar class and passing the argument priceIfExtraTopping to the
+        //base class constructor
+        public Cheddar(int priceIfExtraTopping, int agedForMonths) : base(priceIfExtraTopping)
+        {
+            Console.WriteLine(
+                "Constructor from the Cheddar class.");
+            AgedForMonths = agedForMonths;
+        }
+
+        ////Overriding the virtual Name Property from the base class using the Virtual keyword to
+        ////implement our own logic for the Cheddar class
+        //public override string Name => "Cheddar cheese";
+
+        //Modifying the Name Property to display a more specific description
+        public override string Name => 
+            $"{base.Name}, more specifically, a cheddar cheese aged for {AgedForMonths} months.";
+
+        //Adding the AgedForMonths property to the Cheddar class Constructor
         public int AgedForMonths { get; }
 
         //We can call the public method from the base class. Unlike public methods, private methods
@@ -183,12 +222,34 @@
 
     public class TomatoSauce : Ingredient
     {
+        //Creating a constructor for TomatoSauce class and passing the argument priceIfExtraTopping to the
+        public TomatoSauce(int priceIfExtraTopping) : base(priceIfExtraTopping)
+        {
+            Console.WriteLine(
+                "Constructor from the TomatoSauce class.");
+        }
+
+        //Creating a constructor for TomatoSauce class to see if the base class constructor is called first
+        //or the derived class constructor
+        //public TomatoSauce()
+        //{
+        //    Console.WriteLine(
+        //        "Constructor from the TomatoSauce class.");
+        //}
+
         public override string Name => "Tomato sauce";
         public int TomatosIn100Grams{ get; }
     }
 
     public class Mozzarella : Cheese
     {
+        //Creating a constructor for Mozzarella class and passing the argument priceIfExtraTopping to the
+        public Mozzarella(int priceIfExtraTopping) : base(priceIfExtraTopping)
+        {
+            Console.WriteLine(
+                "Constructor from the Mozzarella class.");
+        }
+
         //We will not override the Name Property from the base class, for example purposes
         //It will use the Name Property from the base class
         public string Name => "Mozarella";
