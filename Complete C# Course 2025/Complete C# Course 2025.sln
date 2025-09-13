@@ -73,6 +73,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplicitAndExpilicitConvers
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpCastingAndDownCasting", "..\UpCastingAndDownCasting\UpCastingAndDownCasting.csproj", "{F08A07A0-D284-4BC3-BA30-4F5161CF7D00}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asOperator", "..\asOperator\asOperator.csproj", "{ECB337B7-D24C-47EA-B647-FAB4423C12CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -219,6 +221,10 @@ Global
 		{F08A07A0-D284-4BC3-BA30-4F5161CF7D00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F08A07A0-D284-4BC3-BA30-4F5161CF7D00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F08A07A0-D284-4BC3-BA30-4F5161CF7D00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECB337B7-D24C-47EA-B647-FAB4423C12CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB337B7-D24C-47EA-B647-FAB4423C12CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECB337B7-D24C-47EA-B647-FAB4423C12CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECB337B7-D24C-47EA-B647-FAB4423C12CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
