@@ -69,6 +69,10 @@ namespace Coding_Exercises
 
             //NumericTypeDescriber - DescribeType
             Console.WriteLine(NumericTypesDescriber.Describe(1.5m));
+
+            //AbstractMethods - Shapes
+            var rectangle = new Rectangle(5, 10);
+            Console.WriteLine("Area of Rectangle: {0}", rectangle.CalculateArea());
         }
     }
 }
