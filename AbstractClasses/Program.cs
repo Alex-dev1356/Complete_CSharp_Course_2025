@@ -18,6 +18,24 @@ namespace AbstractClasses
             //NOTE: All Abstract methods are implicitly virtual.They are obligatory to override them in the non-abstract derived classes.
 
 
+            //Why we need Abstract Methods
+            /*
+            We should mark methods as abstract
+            if the base type should not or cannot provide any default implementation. By marking a method as abstract,
+            we say all the derived types must provide their own implementation.
+            Abstract methods are quite similar to the virtual methods and actually they are implicitly virtual.
+            The difference is that if we mark a method as virtual, we say in the base class there is some default
+            implementation.
+
+            If the derived class wants to override it, it is free to do so.
+            Abstract methods don't give such a choice.
+            There is no implementation at all in the base class and the derived non-abstract classes simply must
+            override this method.
+
+            Another difference is that abstract methods can be declared only in abstract classes, while virtual
+            methods can belong to both abstract and non abstract types.
+             */
+
         }
     }
 
