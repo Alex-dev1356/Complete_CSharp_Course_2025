@@ -36,6 +36,33 @@ namespace AbstractClasses
             methods can belong to both abstract and non abstract types.
              */
 
+
+            /*
+             Why cannot static methods be overridden?
+
+            Well, because the whole point of overriding is to have a specific implementation of a method used when
+            executing on a specific instance.
+
+            For example, the Name property called on a variable of the Ingredient type will give different results
+            when this variable holds an instance of Cheddar class and if it holds an instance of the Mozzarella
+            class.
+
+            Static methods are not called on instances.
+            They are called on a class as a whole.
+            Since there are no instances, there is no picking an implementation specific to a certain type of the
+            instance.
+
+            It means overriding static methods doesn't make sense.
+            So it can't be done in C#.
+
+            Since static classes can only have static methods, there is no point in inheriting from static classes
+            and that's the reason why they are always sealed.
+
+            In the previous lecture we said that sealing a class may cause some problems.
+            Since static classes are sealed implicitly, the same problems may occur for them.
+            We'll discuss it further in the section about unit tests,
+            to understand when we should and when we should not create static classes.
+             */
         }
     }
 
