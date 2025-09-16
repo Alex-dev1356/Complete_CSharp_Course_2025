@@ -73,6 +73,10 @@ namespace Coding_Exercises
             //AbstractMethods - Shapes
             var rectangle = new Rectangle(5, 10);
             Console.WriteLine("Area of Rectangle: {0}", rectangle.CalculateArea());
+
+            //Extension Methods - List Extensions
+            var list = new List<int> { 1, 5, 10, 8, 12, 4, 5 };
+            Console.WriteLine("Every second element: {0}", string.Join(", ", list.TakeEverySecond()));
         }
     }
 }
