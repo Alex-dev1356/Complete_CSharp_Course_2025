@@ -77,6 +77,9 @@ namespace Coding_Exercises
             //Extension Methods - List Extensions
             var list = new List<int> { 1, 5, 10, 8, 12, 4, 5 };
             Console.WriteLine("Every second element: {0}", string.Join(", ", list.TakeEverySecond()));
+
+            //Interface - Applying Multiple Trabsaformations To A Number
+            Console.WriteLine(Interfaces_ApplyingMultipleTrabsaformationsToANumber.Transform(5));
         }
     }
 }
